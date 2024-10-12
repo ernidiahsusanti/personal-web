@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+.navigasi{
+    background-color:#DFB6B2 ;
+    width: 100%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo{
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+   
+}
+
+.menu{
+    margin-left: 850px;
+    padding-top: 24px;
+}
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.menu ul li a:hover{
+    background-color:#854F6C;
+    font-style: italic;
+}
+
+.banner{
+    background-color: #FBE4D8;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+.banner img{
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button{
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover{
+    background-color: #854F6C;
+    border: 2px solid white;
+    color: white;
+}
+
+h1 span:before{
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 70px;
+}
+
+@keyframes gerak{
+    0%{
+        content: 'Selamat Datang '; 
+    }
+    50%{
+        content: 'Di Toko Kue Bahagia'; 
+    }
+    80%{
+        content: 'Terimakasih Sudah Mampir'; 
+    }
+    100%{
+        content: 'Selamat berkunjung kembali'; 
+    }
+    
+}
+
+.galeri{
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.galeri-kiri, .galer-tengah, .galer-kanan{
+    width: 300px;
+    height: 350px;
+    background-color: #DFB6B2;
+    text-align: center;
+    padding: 40px 40px;
+    margin: 70px 20px 20px 70px;
+    border-radius: 5px;
+    float: left;
+  
+}
+
+.galeri-kiri img, .galer-tengah img, .galer-kanan img{
+    border-radius: 100px;
+    height: 200px;
+}
+
+.galeri-kiri:hover, .galer-tengah:hover, .galer-kanan:hover{
+    background-color: #854F6C;
+    color: white;
+}
+
+.galeri h3{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+    
+
+.about {
+    text-align: center;
+    margin-top: 30px;
+    align-content: center;
+}
+
+.about p{
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+.contact{
+    margin-top: 200px;
+    text-align: center;
+}
+
+.contact img{
+    border-radius: 100px;
+    margin-top: 50px;
+    width: 300px;
+    height: 250px;
+}
+
+.contact p{
+    margin-top: 20px;
+    font-size: 30px;
+
+}
+
+.footer{
+    background-color: #DFB6B2;
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+}
